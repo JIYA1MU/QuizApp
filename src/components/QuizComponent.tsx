@@ -27,11 +27,6 @@ const saveQuizHistory = async (quizResult: object) => {
   await tx.done;
 };
 
-const getQuizHistory = async () => {
-  const db = await openQuizDB();
-  return db.getAll(STORE_NAME);
-};
-
 const QuizComponent = () => {
   const [quesNumber, setQuesNumber] = useState<number>(0);
   const [timeLeft, setTimeLeft] = useState<number>(30);
