@@ -1,6 +1,4 @@
 # QuizApp
- 
-# QUIZ APP
 
 ## Overview
 
